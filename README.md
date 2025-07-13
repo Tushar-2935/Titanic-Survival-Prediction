@@ -6,7 +6,7 @@ The Titanic dataset is a classic from Kaggle, containing data about passengers s
 The dataset used is the classic Titanic dataset from Kaggle and includes the following columns:
 
 # Feature	Description
-Pclass -Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+Pclass -Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)<br>
 Sex - Gender
 Age	- Age of the passenger
 SibSp	- Number of siblings/spouses aboard
