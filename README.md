@@ -7,38 +7,38 @@ The dataset used is the classic Titanic dataset from Kaggle and includes the fol
 
 # Feature	Description
 Pclass -Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)<br>
-Sex - Gender
-Age	- Age of the passenger
-SibSp	- Number of siblings/spouses aboard
-Parch	- Number of parents/children aboard
-Fare - Fare paid
-Cabin	- Cabin number (dropped due to many missing values)
-Embarked	- Port of embarkation (also dropped due to missing data)
-Survived	- Target variable (0 = No, 1 = Yes)
+Sex - Gender<br>
+Age	- Age of the passenger<br>
+SibSp	- Number of siblings/spouses aboard<br>
+Parch	- Number of parents/children aboard<br>
+Fare - Fare paid<br>
+Cabin	- Cabin number (dropped due to many missing values)<br>
+Embarked	- Port of embarkation (also dropped due to missing data)<br>
+Survived	- Target variable (0 = No, 1 = Yes)<br>
 
 # Exploratory Data Analysis (EDA)
 Visualizations show more males than females, yet females had higher survival rates.
 Passengers in 1st class had the highest chance of survival.
 People with no family onboard had a higher survival rate.
-Key insights:
-% of women who survived: 0.742
-% of men who survived: 0.188
+Key insights:<br>
+% of women who survived: 0.742<br>
+% of men who survived: 0.188<br>
 
 # Model Building
-Model Used: RandomForestClassifier from sklearn
-Train-Test Split: 80% training, 20% testing
-Evaluation Metrics:
+Model Used: RandomForestClassifier from sklearn<br>
+Train-Test Split: 80% training, 20% testing<br>
+Evaluation Metrics:<br>
 
-Accuracy: ~79%
+Accuracy: 79%<br>
 
-Confusion Matrix:
-TN = 90, FP = 12
-FN = 22, TP = 52
-Precision = TP / (TP + FP)
-Recall = TP / (TP + FN)
-Accuracy = (TP + TN) / Total
+Confusion Matrix:<br>
+TN = 90, FP = 12<br>
+FN = 22, TP = 52<br>
+Precision = TP / (TP + FP)<br>
+Recall = TP / (TP + FN)<br>
+Accuracy = (TP + TN) / Total<br>
 
 # Author
-Tushar
+Tushar<br>
 Undergraduate in Economics | Aspiring Data Scientist
 
